@@ -436,3 +436,14 @@ body .full-width {
         display: none;
     }
 }
+
+@media (max-width: 32rem) {
+    .main-content {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .intro-title {
+        font-size: 5rem;
+    }
+}
